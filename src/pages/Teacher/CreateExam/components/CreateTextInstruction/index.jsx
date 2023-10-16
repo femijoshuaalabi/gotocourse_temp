@@ -1,4 +1,4 @@
-import Dropdown from '@components/dropdown';
+import Dropdown from '@components/Dropdown';
 import TextInput from '@components/TextInput';
 import { useFetch } from '@modules/Fetch';
 import { toast } from 'react-toastify';

@@ -1,4 +1,4 @@
-import Dropdown from '@components/dropdown';
+import Dropdown from '@components/Dropdown';
 import { useFetch } from '@modules/Fetch';
 
 export default function ExamType({ setPage, stateHandler }) {
