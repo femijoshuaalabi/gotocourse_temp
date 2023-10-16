@@ -1,0 +1,82 @@
+.form-select {
+    border: none !important;
+    height: 50px;
+}
+
+.form-select:focus {
+    border: none;
+    box-shadow: none !important;
+}
+.react-datepicker__input-container input {
+    width: 100%;
+}
+
+.select__control {
+    min-height: 50px !important;
+    border: none !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.select__multi-value {
+    background-color: #f2f2f2;
+}
+
+.select__menu {
+    z-index: 100 !important;
+}
+
+.basic-multi-select {
+    z-index: 999;
+}
+
+.select__placeholder,
+.select__input-container,
+.select__single-value {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.select__placeholder {
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: inline;
+    float: left;
+    white-space: nowrap;
+    color: #626262 !important;
+}
+
+.select {
+    width: 444px !important;
+    margin-right: 5px;
+    z-index: 0 !important;
+}
+
+.select.is-open {
+    z-index: 100 !important;
+}
+
+.select-menu {
+    position: fixed !important;
+    width: 440px !important;
+    margin: 1px;
+}
+
+.basic-multi-select {
+    z-index: 999;
+    width: 100%;
+}
+
+.select__indicator {
+    /* display: none !important; */
+    color: #999ca0 !important;
+}
+
+.select--is-disabled {
+    background: #f2f2f2;
+    border-radius: 10px;
+    border: 1px solid #f0f0f0;
+}
