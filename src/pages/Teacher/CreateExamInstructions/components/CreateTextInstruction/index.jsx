@@ -4,8 +4,10 @@ import { useFetch } from '@modules/Fetch';
 import { toast } from 'react-toastify';
 import FetchBaseInit from '@modules/Fetch';
 import FormBox from './FormBox';
+import { useNavigate } from 'react-router';
 
 export default function CreateTextInstruction({ setPage, stateHandler, state }) {
+    const navigate = useNavigate();
     const { loading: fetchingAllocationOptions, fetchedData: allocationOptions } = useFetch(
         '/api/dashboard/fetch-assessment-type',
     );
@@ -51,7 +53,7 @@ export default function CreateTextInstruction({ setPage, stateHandler, state }) 
                     position: 'bottom-center',
                 });
             } else {
-                setPage(3);
+                navigate('/teacher/create-exam');
                 toast.dismiss();
             }
         });

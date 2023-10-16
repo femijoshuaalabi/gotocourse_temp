@@ -44,7 +44,7 @@ export default function Login() {
                 toast.dismiss();
                 Cookies.set('gotocourseUTFToken', data.response.token);
                 if (data?.response?.role == 'teacher') {
-                    window.location.replace('/teacher/create-exam');
+                    window.location.replace('/teacher/create-exam-instructions');
                 } else {
                     navigate('/student/start-exam');
                     window.location.reload();
